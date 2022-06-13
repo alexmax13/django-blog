@@ -43,7 +43,7 @@ jobs:
         id: deploy
         run: |
           aws deploy create-deployment \
-            --application-name blog-pipeline \
-            --deployment-group-name group-blog-deploy \
+            --application-name django-blog \
+            --deployment-group-name group-deploy \
             --deployment-config-name CodeDeployDefault.OneAtATime \
             --github-location repository=${{ github.repository }},commitId=${{ github.sha }}
