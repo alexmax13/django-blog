@@ -1,4 +1,4 @@
 #!/bin/bash
-cd /home/ubuntu/django-blog/
-source environment/bin/activate
-supervisord -c supervisord.conf
+cd /home/ubuntu/django-blog
+sudo source environment/bin/activate
+sudo supervisord -c supervisord.conf
