@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+CSRF_TRUSTED_ORIGINS = ["https://sanosblog.ml", "https://www.sanosblog.ml"]
+
 
 # Application definition
 
