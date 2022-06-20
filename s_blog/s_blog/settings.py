@@ -83,7 +83,7 @@ DATABASES = {
         'NAME': 'blog_db',
         'USER': 'sanblog',
         'PASSWORD': 'sanblog_5065',
-        'HOST': 'localhost',
+        'HOST': '3.216.60.16',
         'PORT': '5432',
     }
 }
